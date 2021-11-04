@@ -137,6 +137,16 @@ class Hestia_Footer extends Hestia_Abstract_Main {
 					'<a href="%1$s" rel="nofollow">%2$s</a>',
 					esc_url( __( 'https://themeisle.com', 'hestia' ) ),
 					'ThemeIsle'
+				),
+
+				/* translators: %1$s is Theme Name, %2$s is WordPress */
+				esc_html__( '%1$s | <br>Developed by %2$s', 'hestia' ),
+				esc_html__( 'Hestia', 'hestia' ),
+				/* translators: %1$s is URL, %2$s is WordPress */
+				sprintf(
+					'<a href="%1$s" rel="nofollow">%2$s</a>',
+					esc_url( __( 'https://themeisle.com', 'hestia' ) ),
+					'ThemeIsle'
 				)
 			)
 		);
@@ -152,7 +162,9 @@ class Hestia_Footer extends Hestia_Abstract_Main {
 		?>
 		<?php if ( ! empty( $hestia_general_credits ) || is_customize_preview() ) : ?>
 			<div class="copyright <?php echo esc_attr( $this->add_footer_copyright_alignment_class() ); ?>">
-				<?php echo wp_kses_post( $hestia_general_credits ); ?>
+				<?php echo 'Developed by <a href="https://github.com/loichu/">loichu</a>'; ?>
+				<?php echo '<br>Theme <a href="https://github.com/loichu/Hestia-Manhaus">Hestia-Manhaus</a>'; ?>
+				<?php echo 'powered by <a href="https://themeisle.com/themes/hestia-pro/">Hestia</a> FREE'; ?>
 			</div>
 			<?php
 		endif;

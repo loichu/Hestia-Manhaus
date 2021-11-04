@@ -78,3 +78,7 @@ span.sub-title {
         width: 50px;
     }
 }
+
+.footer-big {
+    text-align: right !important;
+}
