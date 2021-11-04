@@ -56,7 +56,7 @@ span.sub-title {
 }
 
 @media screen and (max-width: 600px) {
-    h1.hestia-title {
+    .big-title-slider-content > h1.hestia-title {
         font-size: 100px !important;
     }
 
