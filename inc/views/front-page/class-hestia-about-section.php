@@ -58,37 +58,37 @@ class Hestia_About_Section extends Hestia_Abstract_Main {
 		<section class="section-gray">
 			<div class="container">
 				<div class="row">
-					<h1>Film disponible en:</h1>
+					<h1>Film sous-titré en:</h1>
 					<div class="languages">
 						<div>
 							<div class="flag">
 								<img src="<?php echo get_template_directory_uri() . '/assets/img/flag-germany.png'?>" alt="DeutschFlag">
 							</div>
-							<span class="language">Deutsch</span>
+							<span class="language">Deutsch Untertitel</span>
 						</div>
 						<div>
 							<div class="flag">
 								<img src="<?php echo get_template_directory_uri() . '/assets/img/flag-italy.png'?>" alt="DeutschFlag">
 							</div>
-							<span class="language">Italiano</span>
+							<span class="language">Sottotitoli in Italiano</span>
 						</div>
 						<div>
 							<div class="flag">
 								<img src="<?php echo get_template_directory_uri() . '/assets/img/flag-united-kingdom.png'?>" alt="DeutschFlag">
 							</div>
-							<span class="language">English</span>
+							<span class="language">English subtitles</span>
 						</div>
 						<div>
 							<div class="flag">
 								<img src="<?php echo get_template_directory_uri() . '/assets/img/flag-spain.png'?>" alt="DeutschFlag">
 							</div>
-							<span class="language">Español</span>
+							<span class="language">Subtítulos en Español</span>
 						</div>
 						<div>
 							<div class="flag">
 								<img src="<?php echo get_template_directory_uri() . '/assets/img/flag-france.png'?>" alt="DeutschFlag">
 							</div>
-							<span class="language">Français</span>
+							<span class="language">Sous-titres Français</span>
 						</div>
 					</div>
 					<div class="icons-author">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
