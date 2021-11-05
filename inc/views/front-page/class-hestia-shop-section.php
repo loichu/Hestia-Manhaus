@@ -79,13 +79,14 @@ class Hestia_Shop_Section extends Hestia_Abstract_Main {
 
 		hestia_before_shop_section_trigger(); ?>
 		<section class="woocommerce hestia-shop products <?php echo esc_attr( $wrapper_class ); ?>" id="products" data-sorder="hestia_shop" <?php echo wp_kses_post( $section_style ); ?>>
-			<?php
+		<?php
 			hestia_before_shop_section_content_trigger();
 			if ( $is_shortcode === false ) {
 				hestia_display_customizer_shortcut( 'hestia_shop_hide', true );
 			}
 			?>
 			<div class="<?php echo esc_attr( $container_class ); ?>">
+				<span class="icon-wrapper front-page"><img src="http://dev.manhaus.ch/wp-content/plugins/woo-payrexx-gateway/cardicons/card_mastercard.svg" alt="mastercard" id="mastercard" style="margin-left: 0.3em" width="32"><img src="http://dev.manhaus.ch/wp-content/plugins/woo-payrexx-gateway/cardicons/card_visa.svg" alt="visa" id="visa" style="margin-left: 0.3em" width="32"><img src="http://dev.manhaus.ch/wp-content/plugins/woo-payrexx-gateway/cardicons/card_postfinance_card.svg" alt="postfinance_card" id="postfinance_card" style="margin-left: 0.3em" width="32"><img src="http://dev.manhaus.ch/wp-content/plugins/woo-payrexx-gateway/cardicons/card_postfinance_efinance.svg" alt="postfinance_efinance" id="postfinance_efinance" style="margin-left: 0.3em" width="32"><img src="http://dev.manhaus.ch/wp-content/plugins/woo-payrexx-gateway/cardicons/card_twint.svg" alt="twint" id="twint" style="margin-left: 0.3em" width="32"></span>
 				<?php
 				hestia_top_shop_section_content_trigger();
 				if ( $is_shortcode === false ) {

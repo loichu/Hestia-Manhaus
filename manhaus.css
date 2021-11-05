@@ -55,6 +55,17 @@ span.sub-title {
     width: 100px;
 }
 
+.icon-wrapper.front-page {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.icon-wrapper.front-page > img {
+    margin: 10px;
+    width: 80px;
+}
+
 @media screen and (max-width: 600px) {
     .big-title-slider-content > h1.hestia-title {
         font-size: 100px !important;
