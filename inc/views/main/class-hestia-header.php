@@ -148,6 +148,7 @@ class Hestia_Header extends Hestia_Abstract_Main {
 			<?php
 			hestia_before_navbar_toggle_trigger();
 			?>
+			<span class="navbar-toggle" style="padding-right: 0px">Langue</span>
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
