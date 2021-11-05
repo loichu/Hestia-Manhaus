@@ -109,6 +109,11 @@ class Hestia_Shop_Section extends Hestia_Abstract_Main {
 				$this->shop_content();
 				hestia_bottom_shop_section_content_trigger();
 				?>
+				<div class="vod-container">
+					<img src="https://manhaus.ch/wp-content/uploads/2021/10/1918_GreveGeneraleVOD.jpg" alt="vod">
+					<h1>Location HD</h1>
+					<h5>CHF 9.-   <a href="https://vod.manhaus.ch">https://vod.manhaus.ch</a></h5>
+				</div>
 			</div>
 			<?php hestia_after_shop_section_content_trigger(); ?>
 		</section>

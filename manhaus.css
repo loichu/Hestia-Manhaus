@@ -67,6 +67,26 @@ span.sub-title {
     width: 80px;
 }
 
+.vod-container {
+    text-align: center;
+}
+
+.vod-container > img {
+    width: 400px;
+}
+
+.vod-container > h1 {
+    font-family: SuisseIntlCond;
+}
+.vod-container > h5 {
+    font-family: SuisseIntlCond;
+    margin-top: 0px;
+}
+
+/* .vod-container > a {
+    font-size: 20px;
+} */
+
 @media screen and (max-width: 600px) {
     .big-title-slider-content > h1.hestia-title {
         font-size: 100px !important;
