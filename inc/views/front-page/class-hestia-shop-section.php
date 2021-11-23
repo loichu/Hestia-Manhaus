@@ -86,7 +86,12 @@ class Hestia_Shop_Section extends Hestia_Abstract_Main {
 			}
 			?>
 			<div class="<?php echo esc_attr( $container_class ); ?>">
-				<span class="icon-wrapper front-page"><img src="http://manhaus.ch/wp-content/plugins/woo-payrexx-gateway/cardicons/card_visa.svg" alt="visa" id="visa" style="margin-left: 0.3em" width="32"><img src="http://manhaus.ch/wp-content/plugins/woo-payrexx-gateway/cardicons/card_mastercard.svg" alt="mastercard" id="mastercard" style="margin-left: 0.3em" width="32"><img src="https://manhaus.ch/wp-content/plugins/woo-payrexx-gateway/cardicons/card_paypal.svg" alt="paypal" id="paypal" style="margin-left: 0.3em" width="32"><img src="http://manhaus.ch/wp-content/plugins/woo-payrexx-gateway/cardicons/card_twint.svg" alt="twint" id="twint" style="margin-left: 0.3em" width="32"></span>
+				<span class="icon-wrapper front-page">
+					<img src="<?php echo site_url("/wp-content/plugins/woo-payrexx-gateway/cardicons/card_visa.svg");?>" alt="visa" id="visa" style="margin-left: 0.3em" width="32">
+					<img src="<?php echo site_url("/wp-content/plugins/woo-payrexx-gateway/cardicons/card_mastercard.svg");?>" alt="mastercard" id="mastercard" style="margin-left: 0.3em" width="32">
+					<img src="<?php echo site_url("/wp-content/plugins/woo-payrexx-gateway/cardicons/card_paypal.svg");?>" alt="paypal" id="paypal" style="margin-left: 0.3em" width="32">
+					<img src="<?php echo site_url("/wp-content/plugins/woo-payrexx-gateway/cardicons/card_twint.svg");?>" alt="twint" id="twint" style="margin-left: 0.3em" width="32">
+				</span>
 				<?php
 				hestia_top_shop_section_content_trigger();
 				if ( $is_shortcode === false ) {
