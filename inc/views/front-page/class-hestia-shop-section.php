@@ -86,6 +86,11 @@ class Hestia_Shop_Section extends Hestia_Abstract_Main {
 			}
 			?>
 			<div class="<?php echo esc_attr( $container_class ); ?>">
+				<div class="vod-container">
+					<img src="https://manhaus.ch/wp-content/uploads/2021/10/1918_GreveGeneraleVOD.jpg" alt="vod">
+					<h1>Location HD</h1>
+					<h5>CHF 9.-   <a href="https://vimeo.com/ondemand/1918greve" target="_blank">https://vimeo.com/ondemand/1918greve</a></h5>
+				</div>
 				<span class="icon-wrapper front-page">
 					<img src="<?php echo site_url("/wp-content/plugins/woo-payrexx-gateway/cardicons/card_visa.svg");?>" alt="visa" id="visa" style="margin-left: 0.3em" width="32">
 					<img src="<?php echo site_url("/wp-content/plugins/woo-payrexx-gateway/cardicons/card_mastercard.svg");?>" alt="mastercard" id="mastercard" style="margin-left: 0.3em" width="32">
@@ -114,11 +119,6 @@ class Hestia_Shop_Section extends Hestia_Abstract_Main {
 				$this->shop_content();
 				hestia_bottom_shop_section_content_trigger();
 				?>
-				<div class="vod-container">
-					<img src="https://manhaus.ch/wp-content/uploads/2021/10/1918_GreveGeneraleVOD.jpg" alt="vod">
-					<h1>Location HD</h1>
-					<h5>CHF 9.-   <a href="https://vimeo.com/ondemand/1918greve" target="_blank">https://vimeo.com/ondemand/1918greve</a></h5>
-				</div>
 			</div>
 			<?php hestia_after_shop_section_content_trigger(); ?>
 		</section>
